@@ -1,0 +1,58 @@
+@font-face{
+    font-family: iranYekan;
+    src: url('../font/Qs_Iranyekan.ttf');
+}
+
+body{
+    font-family: iranYekan;
+}
+
+li a{
+    color: #000 !important;
+    text-decoration: none !important;
+}
+.bg-banner{
+    height: 100vh;
+    background: radial-gradient(circle at center, #e6e600 , #e0e42c);
+}
+
+.bi-instagram{
+    transition:all 0.4s ease;
+}
+.bi-telegram{
+    transition:all 0.4s ease;
+}
+.bi-twitter{
+    transition:all 0.4s ease;
+}
+.bi-facebook{
+    transition:all 0.4s ease;
+}
+
+.bi-instagram:hover{
+    color: #C13584;
+}
+.bi-telegram:hover{
+    color: #229ED9;
+}
+.bi-twitter:hover{
+    color: #1DA1F2;
+}
+.bi-facebook:hover{
+    color: #4267B2;
+}
+
+.list-unstyled .footer-link{
+    margin-bottom: 1rem;
+}
+
+#blogs .row .col-md-3{
+    display: flex;
+    justify-content: center;
+}
+.bi-flower3{
+    color: green;
+}
+.bi-award,.bi-flower3,.bi-heart-pulse-fill{
+    font-size: 100px;
+}
